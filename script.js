@@ -27,7 +27,7 @@ const translations = {
         feature6Desc: 'حماية كاملة لبياناتك مع تشفير متقدم',
         downloadTitle: 'حمّل التطبيق الآن',
         downloadSubtitle: 'متوفر على جميع المنصات',
-        androidDesc: 'متوفر على Google Play',
+        androidDesc: 'سيتم إضافة الرابط قريباً',
         windowsDesc: 'متوفر للكمبيوتر',
         downloadAndroid: 'تحميل للاندرويد',
         downloadWindows: 'تحميل للويندوز',
@@ -150,9 +150,9 @@ const translations = {
         downloadApplication: 'تحميل التطبيق',
         appInfo: 'حجم الملف: ~150 ميجابايت | متوافق مع Windows 8, 8.1, 10, و 11',
         step3Title: 'تثبيت المتطلبات',
-        step3Desc: 'بعد تثبيت التطبيق، قم بتحميل وتشغيل مثبّت المتطلبات لإعداد جميع التبعيات اللازمة.',
+        step3Desc: 'إذا فتح البرنامج بشاشة بيضاء، قم بتحميل هذا الملف لحل المشكلة.',
         downloadRequirements: 'تحميل مثبّت المتطلبات',
-        requirementsInfo: 'شغّل هذا المثبّت بعد تثبيت التطبيق الرئيسي'
+        requirementsInfo: 'قم بتحميل وتشغيل هذا الملف إذا ظهرت شاشة بيضاء عند فتح البرنامج'
     },
     en: {
         navHome: 'Home',
@@ -181,7 +181,7 @@ const translations = {
         feature6Desc: 'Complete protection for your data with advanced encryption',
         downloadTitle: 'Download Now',
         downloadSubtitle: 'Available on all platforms',
-        androidDesc: 'Available on Google Play',
+        androidDesc: 'Link will be added soon',
         windowsDesc: 'Available for PC',
         downloadAndroid: 'Download for Android',
         downloadWindows: 'Download for Windows',
@@ -304,9 +304,9 @@ const translations = {
         downloadApplication: 'Download Application',
         appInfo: 'File size: ~150 MB | Compatible with Windows 8, 8.1, 10, and 11',
         step3Title: 'Install Requirements',
-        step3Desc: 'After installing the application, download and run the requirements installer to set up all necessary dependencies.',
+        step3Desc: 'If the application opens with a white screen, download this file to fix the issue.',
         downloadRequirements: 'Download Requirements Installer',
-        requirementsInfo: 'Run this installer after installing the main application'
+        requirementsInfo: 'Download and run this file if you see a white screen when opening the application'
     }
 };
 

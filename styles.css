@@ -1158,41 +1158,17 @@ body.loaded {
 .hero-title::before {
     content: '✨';
     position: absolute;
-    right: -35px;
+    right: -0.5em;
     top: 0;
     animation: sparkle 2s ease-in-out infinite;
-    font-size: 1.5rem;
+    font-size: 0.43em;
     line-height: 1;
     white-space: nowrap;
 }
 
 [dir="ltr"] .hero-title::before {
     right: auto;
-    left: -35px;
-}
-
-@media (max-width: 768px) {
-    .hero-title::before {
-        right: -25px;
-        font-size: 1.2rem;
-    }
-    
-    [dir="ltr"] .hero-title::before {
-        right: auto;
-        left: -25px;
-    }
-}
-
-@media (max-width: 480px) {
-    .hero-title::before {
-        right: -20px;
-        font-size: 1rem;
-    }
-    
-    [dir="ltr"] .hero-title::before {
-        right: auto;
-        left: -20px;
-    }
+    left: -0.5em;
 }
 
 @keyframes sparkle {
