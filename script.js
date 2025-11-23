@@ -27,9 +27,17 @@ const translations = {
         feature6Desc: 'حماية كاملة لبياناتك مع تشفير متقدم',
         downloadTitle: 'حمّل التطبيق الآن',
         downloadSubtitle: 'متوفر على جميع المنصات',
-        androidDesc: 'سيتم إضافة الرابط قريباً',
+        androidDesc: 'متوفر للتحميل',
         windowsDesc: 'متوفر للكمبيوتر',
         downloadAndroid: 'تحميل للاندرويد',
+        downloadDrive: 'Google Drive',
+        downloadMega: 'MEGA',
+        downloadServer3: 'MediaFire',
+        downloadMediaFire: 'MediaFire',
+        androidDownloadTitle: 'تحميل Counta Scanner للاندرويد',
+        downloadPlayStore: 'Google Play Store',
+        comingSoon: '(قريباً)',
+        androidInfo: 'اختر خادم التحميل للحصول على ملف APK',
         downloadWindows: 'تحميل للويندوز',
         free: 'مجاني',
         stat1: 'مستخدم نشط',
@@ -177,9 +185,17 @@ const translations = {
         feature6Desc: 'Complete protection for your data with advanced encryption',
         downloadTitle: 'Download Now',
         downloadSubtitle: 'Available on all platforms',
-        androidDesc: 'Link will be added soon',
+        androidDesc: 'Available for download',
         windowsDesc: 'Available for PC',
         downloadAndroid: 'Download for Android',
+        downloadDrive: 'Google Drive',
+        downloadMega: 'MEGA',
+        downloadServer3: 'MediaFire',
+        downloadMediaFire: 'MediaFire',
+        androidDownloadTitle: 'Download Counta Scanner for Android',
+        downloadPlayStore: 'Google Play Store',
+        comingSoon: '(Coming Soon)',
+        androidInfo: 'Choose a download server to get the APK file',
         downloadWindows: 'Download for Windows',
         free: 'Free',
         stat1: 'Active Users',
@@ -418,14 +434,36 @@ animateNumbers();
 // Download buttons
 const androidDownload = document.getElementById('androidDownload');
 const windowsDownload = document.getElementById('windowsDownload');
+const androidModal = document.getElementById('androidDownloadModal');
+const closeAndroidModal = document.getElementById('closeAndroidModal');
 
+// Android Download Modal
 if (androidDownload) {
     androidDownload.addEventListener('click', (e) => {
         e.preventDefault();
-        // Replace with actual Android APK download link
-        // For now, you can use Google Play Store link or direct APK download
-        const downloadUrl = 'https://play.google.com/store/apps/details?id=com.barcodescanner.app';
-        window.open(downloadUrl, '_blank');
+        if (androidModal) {
+            androidModal.classList.add('show');
+            document.body.style.overflow = 'hidden';
+        }
+    });
+}
+
+if (closeAndroidModal) {
+    closeAndroidModal.addEventListener('click', () => {
+        if (androidModal) {
+            androidModal.classList.remove('show');
+            document.body.style.overflow = '';
+        }
+    });
+}
+
+// Close Android modal when clicking outside
+if (androidModal) {
+    androidModal.addEventListener('click', (e) => {
+        if (e.target === androidModal) {
+            androidModal.classList.remove('show');
+            document.body.style.overflow = '';
+        }
     });
 }
 
