@@ -148,11 +148,7 @@ const translations = {
         step2Title: 'تحميل التطبيق',
         step2Desc: 'قم بتحميل مثبّت تطبيق Counta Scanner لـ Windows.',
         downloadApplication: 'تحميل التطبيق',
-        appInfo: 'حجم الملف: ~150 ميجابايت | متوافق مع Windows 8, 8.1, 10, و 11',
-        step3Title: 'تثبيت المتطلبات',
-        step3Desc: 'إذا فتح البرنامج بشاشة بيضاء، قم بتحميل هذا الملف لحل المشكلة.',
-        downloadRequirements: 'تحميل مثبّت المتطلبات',
-        requirementsInfo: 'قم بتحميل وتشغيل هذا الملف إذا ظهرت شاشة بيضاء عند فتح البرنامج'
+        appInfo: 'حجم الملف: ~150 ميجابايت | متوافق مع Windows 8, 8.1, 10, و 11'
     },
     en: {
         navHome: 'Home',
@@ -302,11 +298,7 @@ const translations = {
         step2Title: 'Download Application',
         step2Desc: 'Download the Counta Scanner application installer for Windows.',
         downloadApplication: 'Download Application',
-        appInfo: 'File size: ~150 MB | Compatible with Windows 8, 8.1, 10, and 11',
-        step3Title: 'Install Requirements',
-        step3Desc: 'If the application opens with a white screen, download this file to fix the issue.',
-        downloadRequirements: 'Download Requirements Installer',
-        requirementsInfo: 'Download and run this file if you see a white screen when opening the application'
+        appInfo: 'File size: ~150 MB | Compatible with Windows 8, 8.1, 10, and 11'
     }
 };
 
@@ -453,7 +445,6 @@ if (windowsDownload) {
 const modal = document.getElementById('windowsDownloadModal');
 const closeModal = document.getElementById('closeModal');
 const downloadAppBtn = document.getElementById('downloadAppBtn');
-const downloadRequirementsBtn = document.getElementById('downloadRequirementsBtn');
 
 if (closeModal) {
     closeModal.addEventListener('click', () => {
@@ -478,29 +469,12 @@ if (modal) {
 if (downloadAppBtn) {
     downloadAppBtn.addEventListener('click', (e) => {
         e.preventDefault();
-        // Replace with actual Windows installer download link
-        const downloadUrl = '#'; // Add your Windows installer URL here
-        if (downloadUrl !== '#') {
-            window.open(downloadUrl, '_blank');
-        } else {
-            alert(currentLang === 'ar' ? 'رابط التحميل سيتم إضافته قريباً' : 'Download link will be added soon');
-        }
+        // Google Drive download link
+        const downloadUrl = 'https://drive.google.com/uc?export=download&id=1xl4zqpXbv5ynCD_V2uX6abBMqJ3P_6C9';
+        window.open(downloadUrl, '_blank');
     });
 }
 
-// Download requirements button
-if (downloadRequirementsBtn) {
-    downloadRequirementsBtn.addEventListener('click', (e) => {
-        e.preventDefault();
-        // Replace with actual requirements installer download link
-        const downloadUrl = '#'; // Add your requirements installer URL here
-        if (downloadUrl !== '#') {
-            window.open(downloadUrl, '_blank');
-        } else {
-            alert(currentLang === 'ar' ? 'رابط التحميل سيتم إضافته قريباً' : 'Download link will be added soon');
-        }
-    });
-}
 
 
 // Language Toggle
