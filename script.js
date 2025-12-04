@@ -156,7 +156,42 @@ const translations = {
         step2Title: 'تحميل التطبيق',
         step2Desc: 'قم بتحميل مثبّت تطبيق Counta Scanner لـ Windows.',
         downloadApplication: 'تحميل التطبيق',
-        appInfo: 'حجم الملف: ~150 ميجابايت | متوافق مع Windows 8, 8.1, 10, و 11'
+        appInfo: 'حجم الملف: ~150 ميجابايت | متوافق مع Windows 8, 8.1, 10, و 11',
+        // Subscriptions Page
+        navSubscriptions: 'الاشتراكات',
+        subscriptionsTitle: 'الاشتراكات',
+        subscriptionsSubtitle: 'اختر الخطة المثالية لاحتياجاتك',
+        subscriptionsHeader: 'اختر خطتك',
+        subscriptionsHeaderText: 'افتح الميزات المميزة وعزز تجربة مسح الباركود الخاصة بك',
+        planFree: 'مجاني',
+        planForever: 'للأبد',
+        planPremium: 'مميز',
+        planPerMonth: 'شهرياً',
+        planPro: 'احترافي',
+        planPerYear: 'سنوياً',
+        featureBasicScanning: 'مسح الباركود الأساسي',
+        featureWiFiConnection: 'اتصال Wi-Fi فقط',
+        feature4KQuality: 'دقة كاميرا 4K',
+        featureLimitedHistory: 'سجل آخر 100 عملية مسح',
+        featureWithAds: 'مع إعلانات',
+        featureUnlimitedScans: 'عمليات مسح غير محدودة',
+        featureHighQuality: 'دقة كاميرا 4K',
+        featureNoAds: 'بدون إعلانات',
+        featureHistory: 'سجل المسح',
+        featureSave17: 'وفر 17% مقارنة بالاشتراك الشهري',
+        btnCurrentPlan: 'الخطة الحالية',
+        btnSubscribeNow: 'اشترك الآن',
+        faqTitle: 'الأسئلة الشائعة',
+        faq1Question: 'ما هي طرق الدفع المقبولة؟',
+        faq1Answer: 'نقبل جميع بطاقات الائتمان والخصم الرئيسية و PayPal. تتم معالجة جميع المدفوعات بأمان من خلال شركاء الدفع لدينا.',
+        faq2Question: 'هل يمكنني إلغاء اشتراكي في أي وقت؟',
+        faq2Answer: 'نعم، يمكنك إلغاء اشتراكك في أي وقت. سيبقى اشتراكك نشطاً حتى نهاية فترة الفوترة الحالية، وستستمر في الوصول إلى الميزات المميزة حتى ذلك الحين.',
+        faq3Question: 'ماذا يحدث إذا لم أجدّد اشتراكي؟',
+        faq3Answer: 'إذا لم تقم بالتجديد، فسيتم تحويل حسابك تلقائياً إلى الخطة المجانية. ستفقد الوصول إلى الميزات المميزة ولكن يمكنك الاستمرار في استخدام التطبيق مع قيود الخطة المجانية.',
+        faq4Question: 'هل تقدمون استرداد الأموال؟',
+        faq4Answer: 'نقدم ضمان استرداد الأموال لمدة 14 يوماً للاشتراكات الجديدة. إذا لم تكن راضياً، اتصل بنا خلال 14 يوماً. سيتم خصم نصف مدة الـ14 يوم من مبلغ الاسترداد.',
+        faq5Question: 'هل يمكنني التبديل بين الخطط؟',
+        faq5Answer: 'نعم، يمكنك ترقية أو تخفيض خطتك في أي وقت. ستدخل التغييرات حيز التنفيذ فوراً، وسيتم تعديل الفوترة وفقاً لذلك.'
     },
     en: {
         navHome: 'Home',
@@ -314,7 +349,42 @@ const translations = {
         step2Title: 'Download Application',
         step2Desc: 'Download the Counta Scanner application installer for Windows.',
         downloadApplication: 'Download Application',
-        appInfo: 'File size: ~150 MB | Compatible with Windows 8, 8.1, 10, and 11'
+        appInfo: 'File size: ~150 MB | Compatible with Windows 8, 8.1, 10, and 11',
+        // Subscriptions Page
+        navSubscriptions: 'Subscriptions',
+        subscriptionsTitle: 'Subscriptions',
+        subscriptionsSubtitle: 'Choose the perfect plan for your needs',
+        subscriptionsHeader: 'Choose Your Plan',
+        subscriptionsHeaderText: 'Unlock premium features and enhance your barcode scanning experience',
+        planFree: 'Free',
+        planForever: 'Forever',
+        planPremium: 'Premium',
+        planPerMonth: 'per month',
+        planPro: 'Pro',
+        planPerYear: 'per year',
+        featureBasicScanning: 'Basic barcode scanning',
+        featureWiFiConnection: 'Wi-Fi connection only',
+        feature4KQuality: '4K camera resolution',
+        featureLimitedHistory: 'Last 100 scans history',
+        featureWithAds: 'With advertisements',
+        featureUnlimitedScans: 'Unlimited barcode scans',
+        featureHighQuality: '4K camera resolution',
+        featureNoAds: 'No advertisements',
+        featureHistory: 'Scan history',
+        featureSave17: 'Save 17% compared to monthly',
+        btnCurrentPlan: 'Current Plan',
+        btnSubscribeNow: 'Subscribe Now',
+        faqTitle: 'Frequently Asked Questions',
+        faq1Question: 'What payment methods do you accept?',
+        faq1Answer: 'We accept all major credit cards, debit cards, and PayPal. All payments are processed securely through our payment partners.',
+        faq2Question: 'Can I cancel my subscription anytime?',
+        faq2Answer: 'Yes, you can cancel your subscription at any time. Your subscription will remain active until the end of the current billing period, and you\'ll continue to have access to premium features until then.',
+        faq3Question: 'What happens if I don\'t renew my subscription?',
+        faq3Answer: 'If you don\'t renew, your account will automatically revert to the free plan. You\'ll lose access to premium features but can continue using the app with free plan limitations.',
+        faq4Question: 'Do you offer refunds?',
+        faq4Answer: 'We offer a 14-day money-back guarantee for new subscriptions. If you\'re not satisfied, contact us within 14 days. Half of the 14-day period will be deducted from the refund amount.',
+        faq5Question: 'Can I switch between plans?',
+        faq5Answer: 'Yes, you can upgrade or downgrade your plan at any time. Changes will take effect immediately, and billing will be adjusted accordingly.'
     }
 };
 
@@ -599,16 +669,19 @@ document.addEventListener('DOMContentLoaded', () => {
     setupNavLinks();
     applyTranslations();
     applyTheme();
+    setupSubscriptionButtons();
     
     // Re-apply translations after a short delay to ensure all elements are loaded
     setTimeout(() => {
         applyTranslations();
         setupNavLinks();
+        setupSubscriptionButtons();
     }, 100);
     
     // Re-apply after another delay for dynamic content
     setTimeout(() => {
         applyTranslations();
+        setupSubscriptionButtons();
     }, 500);
 });
 
@@ -618,5 +691,46 @@ window.addEventListener('load', () => {
     setupNavLinks();
     applyTranslations();
     applyTheme();
+    
+    // Setup subscription buttons
+    setupSubscriptionButtons();
 });
+
+// Setup subscription buttons to redirect to support email
+function setupSubscriptionButtons() {
+    const subscribeButtons = document.querySelectorAll('.plan-button.primary, .plan-button.secondary');
+    
+    subscribeButtons.forEach(button => {
+        // Check if button text contains subscribe or current plan
+        const buttonText = button.textContent.toLowerCase();
+        
+        if (buttonText.includes('subscribe') || buttonText.includes('اشترك')) {
+            button.addEventListener('click', (e) => {
+                e.preventDefault();
+                
+                // Get the plan name from the parent card
+                const planCard = button.closest('.plan-card');
+                const planName = planCard ? planCard.querySelector('.plan-name').textContent : 'Premium';
+                const planPrice = planCard ? planCard.querySelector('.plan-price').textContent : '';
+                const planPeriod = planCard ? planCard.querySelector('.plan-period').textContent : '';
+                
+                // Create email subject and body
+                const subject = encodeURIComponent(
+                    currentLang === 'ar' 
+                        ? `طلب اشتراك - ${planName}`
+                        : `Subscription Request - ${planName}`
+                );
+                
+                const body = encodeURIComponent(
+                    currentLang === 'ar'
+                        ? `مرحباً،\n\nأرغب في الاشتراك في خطة ${planName}.\n\nالسعر: ${planPrice} ${planPeriod}\n\nشكراً`
+                        : `Hello,\n\nI would like to subscribe to the ${planName} plan.\n\nPrice: ${planPrice} ${planPeriod}\n\nThank you`
+                );
+                
+                // Open email client
+                window.location.href = `mailto:team@counta-scanner.online?subject=${subject}&body=${body}`;
+            });
+        }
+    });
+}
 
